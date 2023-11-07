@@ -1,0 +1,24 @@
+a) více stranek .. website
+   jedna stranka .. webpage
+
+ - header a footer (záhlaví, zápatí) by měli byt statické a pro všechny stránky stejné
+ - main .. hlavní obsah, který se na každé stránce mění
+ - aside .. podle potřeby lze změnit, ponechat nebo uplně zrušit
+ 
+pozn. novou stránku zatím tvoříme jako kopii index.html s jiným názvem a jiným obsahem část main
+
+b) hlavní menu
+          - slouží pro přepínání mezi stránkami, přepíná se pomocí odkazů tag <a></a> (parametry href.. hypertext reference s URL(uniform resource locator) tj. stránka zdroje
+             
+            URL může být:
+            a) absolutní tj. kompletní adresa např. http(s)://www.spsejecna.cz
+            b) relativní adresa tj. adresa na server a root, kde je stránka umístěná
+
+            pohyb pomocí hlavního menu by měl být vždy relativní
+            adresování => pohybujeme se stále ve stejném adresáři
+
+pozn. skok do adresáře na stránku např pages/about.html
+      skok zpět(výskok z adresáře) je ../index.html 
+        (návrat (o jednu úroven) z adresáře pages a stránky about.html na stránku index.html)
+
+    

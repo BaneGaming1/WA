@@ -1,0 +1,24 @@
+formular
+- umožnnuje uživateli vkládat hodnoty, které se pak použijí .. např. při výpočtu (index bmi), nebo je lze uložit do souboru nebo databáze
+-typy pro uložení:
+        1. jednořádkový text ... <input type="text">, tag pouze otevírací s povinným parametrem type, kromě textu mohou být další typy např. heslo, date, number a další
+        2. víceřádkový text ... <textrea></textrea> .. tag který mívá definovaný počáteční rozměr (počet řádků, počet sloupců, ale lze libovolně roztáhnout
+        3. volba jedné z více možností ("radiobutton") ... <input type="radio" ...>
+        4. volba více možností najednou ("checkbox") ... <input type="checkbox" ...>
+        5. potvrzení s následným uložením dat z formuláře ... <input type="sumbit" ...>
+
+jsou i další typy např. "dropdown select" ... select z options ... with w3schools
+
+formulář:
+- musí vždy obsahovat otvírací a zavírací tag <form></form>, který může obsahovat parametry method a action .. ty pak určují způsob uložení dat z formuláře (method="post" nebo "get", action="url" místo, kde (v jakém souboru) se data zpracují např. save.php)
+- může obsahovat tag pro rozdělení do sekcí <fieldset></fieldset>
+- může obshahovat nadpis <legend></legend>
+
+úkol:
+ vytvořte stránku (standartní uspořádání), kde v části main vložíte formulář který bude obsahovat:
+           - jmeno, prijmeni, datum narozeni a komentář(delší text)
+           - rozdělte formulář do dvou sekcí s nadpisem osobní info a komentář
+           - do sekce osobní info přidejte radio button pro volbu .. muž, žena, ostatní
+           - vytvořte novou sekci pro jazyky s checkboxem (angličtina, němčina, ... a další 3 jazyky    
+ tabulka:
+-musí obsahovat tagy <table></table> a další označující řádky <tr></tr> "table row" a v nich bud řádek se záhlavím v <tr> bude <th></th> "table header" </tr> .. 1.řádek nebo řádky s s daty <tr> bude <td></td> "table data> .. další řádaky

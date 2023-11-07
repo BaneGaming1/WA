@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+       
+    </head>
+    
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        </style>
+    
+    <body>
+        <header>
+           
+        </header>
+
+        <main>
+            <h1>Formulář</h1>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>osobni info</legend>
+                    jméno:<br>
+                    <input type="text"><br>
+                    přijmeni:<br>
+                    <input type="text"><br>
+                    datum narozeni:<br>
+                    <input type="date"><br>
+<!--radio button--> 
+                    pohlavi:
+                    <input type="radio" id="muz" name="pohlavi" value="muž">
+                    <label for="muz">muž</label>
+
+                    <input type="radio" id="zena" name="pohlavi" value="žena">
+                    <label for="zena">žena</label>
+
+                    
+                    <input type="radio" id="jine" name="pohlavi" value="jiné">
+                    <label for="jine">jiné</label>
+<!--radiobutton-->
+                </fieldset>
+                
+                <fieldset>
+                    <legend>jazyky</legend>
+<!--checkbox-->
+                    <input type="checkbox" id="en" name="jazyk1" value="Angličtina">
+                    <label for="en">Angličtina</label>
+
+                    <input type="checkbox" id="de" name="jazyk2" value="Němčina">
+                    <label for="de">Němčina</label>
+
+                    <input type="checkbox" id="he" name="jazyk3" value="Hebrejština">
+                    <label for="de">Hebrejština</label>
+<!--checkbox-->
+                </fieldset>
+                
+                <fieldset>
+                    <legend>komentař</legend>
+                    <textarea rows="4" cols="20"></textarea>
+                </fieldset>
+                <input type="submit">
+            </form>
+<!--table-->
+            <h2>Seznam osob</h2>
+                <table>
+                    <tr><th>jmeno</th><th>prijmeni</th><th>datum narozeni</th></tr>
+                    <tr><td>milan</td><td>tuřínek</td><td>17.5.2002</td></tr>
+                    <tr><td>david</td><td>kočárek</td><td>25.8.1985</td></tr>
+                    <tr><td>milan</td><td>tuřínek</td><td>17.5.2002</td></tr>
+                    <tr><td>david</td><td>kočárek</td><td>25.8.1985</td></tr>
+                </table>
+<!--table-->
+            
+
+        </main>
+
+        <aside>
+        </aside>
+
+        <footer>
+            <hr>
+            <p><small>  </small></p>
+
+        </footer>
+    </body>
+</html>

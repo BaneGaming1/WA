@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <title>registrace</title>
+        <meta charset="utf-8">
+
+        <style>
+            table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+            
+            td, th {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+            }
+            
+            tr:nth-child(even) {
+              background-color: #dddddd;
+            }
+            </style>
+        
+       
+    </head>
+
+  
+    <body>
+        <header>
+            <h1>Race Registration</h1>
+            <nav>
+                <ul style="list-style: none;">
+                    <li><a href="index.html">Race map</a></li>
+                    <li><a href="index.html">Video from previous year</a></li>
+                    <li><a href="index.html">Contact to organizer</a></li>
+                </ul>
+            </nav>
+        </header>
+     
+        <main>
+            <h2>Racer data</h2>
+            <form action="#" method="post">
+            <section>
+            <fieldset>
+                Name:
+                <input type="text"><br>
+                Surname:
+                <input type="text"><br>
+                Date of birth:
+                <input type="date"><br>
+                Adress:
+                <input type="text"><br>
+            
+                I am:
+                <input type="radio" id="amater" name="button" value="amater">
+                <label for="amater">amater</label> <br>
+
+                <input type="radio" id="profesional" name="button" value="profesional">
+                <label for="profesional">profesional by section:</label> 
+
+                <label for="section"></label>
+
+                <select name="section" id="section">
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="option1">Option1</option>
+                    <option value="option2">Option2</option>
+                    <option value="option3">Option3</option>
+                    <option value="option4">Option4</option>
+                </select> <br>
+
+                phone:
+                <input type="text"><br>
+                email:
+                <input type="text"><br>
+
+                <input type="checkbox" id="agreement" name="agreement" value="agreement">
+                <label for="agreement"><a href="index.html">Race terms</a> agreement</label> <br>
+            </fieldset>
+                <input type="submit" value="REGISTER">
+            </section>
+            </form>
+
+            <section>
+                <h2>Tabulka registrovanych</h2>
+                <table>
+                    <tr><th>Name</th><th>Surname</th><th>Date of birth</th><th>Adress</th><th>email</th></tr>
+                    <tr><td>Shep</td><td>Parsley</td><td>17.5.2002</td><td>160 Main Alley</td><td>pbrewitt2b@google.com</td></tr>
+                    <tr><td>Peter</td><td>Pyer</td><td>8.10.2000</td><td>4516 East Crossing</td><td>acomolli2l@gmpg.org</td></tr>
+                    <tr><td>Addy</td><td>Avrasin</td><td>28.10.1999</td><td>821 Eagle Crest Avenue</td><td>mmapowder2o@bravesites.com</td></tr>
+                    <tr><td>Ruy</td><td>Comolli</td><td>14.3.1995</td><td>742 Evergreen Terrace</td><td>croscam11@behance.net</td></tr>
+                </table>
+            </section>
+        </main>
+
+        <aside>
+        </aside>
+
+        <footer>
+            <hr>
+            <p><small>  </small></p>
+
+        </footer>
+    </body>
+</html>

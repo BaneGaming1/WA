@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <title>kontaktní formulář</title>
+        <meta charset="utf-8">
+        
+        <style>
+            .required::before {
+                content: "*";
+                color: red;
+                margin-right: 3px;
+            }
+
+            input[type="submit"] {
+            background-color: orangered;
+            color: white;
+            padding: 10px 40px; 
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="text"], textarea {
+            margin-bottom: 10px; 
+        }
+        
+        
+    
+        </style>
+    </head>
+    
+    <body style="font-family: Georgia, serif;">
+        <header>
+            <h1>Chcete se na něco zeptat?</h1>
+            <p>Přejít na poptávku <a href="https://www.alza.cz/" target="_blank"> e-shopu</a> </p>
+
+            <nav>
+            </nav>
+        </header>
+
+        <main>
+            <form action="#" method="post">
+            <section>
+                <fieldset>
+                    Jméno<span class="required"></span>
+                    <input type="text" required><br>
+                    Email<span class="required"></span>
+                    <input type="text" required><br>
+
+                    Zpráva<span class="required"></span>
+                    <textarea rows="4" cols="20" required></textarea> <br>
+
+                    <p>Odesláním formuláře souhlasíte se <a href="index.html"> zpracováním <br> osobních údajů.</a></p><br>
+                </fieldset>
+                    <input type="submit">
+            </section>
+            </form>
+        </main>
+
+        <aside>
+        </aside>
+
+        <footer>
+            <hr>
+            <p><small>  </small></p>
+
+        </footer>
+    </body>
+</html>
